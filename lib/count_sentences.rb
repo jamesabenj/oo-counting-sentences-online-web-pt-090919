@@ -18,6 +18,7 @@ class String
     array1 = self.split(".")
     array2 = self.split("?")
     array3 = self.split("!")
+    arra
     array.count
   end
 end
