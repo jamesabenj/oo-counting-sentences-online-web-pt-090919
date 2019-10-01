@@ -21,6 +21,7 @@ class String
       if i.include?("?") || i.include?(".") || i.include("!")
       new_array << i 
     end
+  end
     binding.pry 
     new_array.count 
   end 
