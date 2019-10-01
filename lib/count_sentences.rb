@@ -18,7 +18,7 @@ class String
     array = self.split
     new_array = []
     array.each do |i|
-      if i.include?("?") || i.include?(".") || i.include("!")
+      if i.include?("?") || i.include?(".") || i.include?("!")
       new_array << i 
     end
   end
