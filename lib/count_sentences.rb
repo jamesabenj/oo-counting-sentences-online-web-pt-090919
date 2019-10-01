@@ -22,7 +22,6 @@ class String
       new_array << i 
     end
   end
-    binding.pry 
     new_array.count 
   end 
   
