@@ -22,4 +22,6 @@ class String
       new_array << i 
     end
     new_array.count 
+  end 
+  
 end
