@@ -21,6 +21,7 @@ class String
       i.end_with?("?", ".", "!")
       new_array << i 
     end
+    binding.pry 
     new_array.count 
   end 
   
