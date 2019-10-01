@@ -19,6 +19,7 @@ class String
     array2 = self.split("?")
     array3 = self.split("!")
     new_array = array1 + array2 + array3
+    binding.pry
     new_array.uniq!
     new_array.count
   end
